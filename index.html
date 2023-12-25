@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form id="dataForm">
+        <div class="input1">
+          <label for="input1">Name : </label>
+          <input type="text" id="input1" name="text" />
+        </div>
+
+        <div class="checkBoxes">
+            <label > Gender : </label>
+          <div class="check1">
+            <label for="c1">Male</label>
+            <input type="checkbox" id="c1" name="checkbox" value="Male" />
+          </div>
+          <div class="check2">
+            <label for="c2">Female</label>
+            <input type="checkbox" id="c2" name="checkbox" value="Female" />
+          </div>
+        </div>
+
+        <div class="dropDown">
+            <div class="drop1">
+                <label for="d1">Age : </label>
+                <select name="dropDown" id="d1">
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                </select>
+            </div>
+            <div class="drop2">
+                <label for="d2">Profession : </label>
+                <select name="dropDown" id="d2">
+                    <option value=""></option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Lawyer">Lawyer</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="input2">
+            <label for="input2">Email : </label>
+            <input type="text" id="input2" name="text" />
+          </div>
+
+          <div class="radio">
+            <label>Are you interested in the form :</label>
+        <input type="radio" id="radio1" name="radio" value="Yes">
+        <label for="radio1">Yes</label>
+        <input type="radio" id="radio2" name="radio" value="No">
+        <label for="radio2">No</label>
+          </div>
+
+          <button type="submit" value="submit"> Submit</button>
+      </form>
+
+      <div class="show" id="show">
+
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
